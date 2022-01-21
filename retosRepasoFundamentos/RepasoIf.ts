@@ -33,9 +33,9 @@ function horoscopo(month)
 }
 //------------------------------------------------------------//
 //reto2
-let pais = "";
 
-function localizacion(pais)
+
+function localizacion(pais:string)
 {
 
 if(pais === ("españa"||"francia"||"alemania"||"italia"||"ucrania"))
