@@ -8,16 +8,18 @@ let mobile3= new Mobile("Samsung Galaxy 10","galaxy 10","Samsung",128,"white",fa
 let mobile4= new Mobile("iPhone5G","5G","apple",1024,"Beige",true,8,1899);
 
 let library= new MobileLibrary("first Library","home",[mobile1,mobile2,mobile3,mobile4])
-
+console.log("|------------------------|muestra libreria|-----------------|")
 console.log(library);
-console.log(library.setName("libreriaExtensa"));
+library.setName("libreriaExtensa");
 console.log(library.getName());
-console.log(library.setLocation("raiz"));
+library.setLocation("raiz");
 console.log(library.getLocation());
-console.log(library.setMobiles([mobile1,mobile2,mobile3,mobile4]));
+library.setMobiles([mobile1,mobile2,mobile3,mobile4]);
 console.log(library.getMobiles());
-console.log(library.setTotalPrice(200));
+console.log("|------------------------|cambio valores precios|-----------------|")
+library.setTotalPrice(200);
 console.log(library.getTotalPrice());
 console.log(library.totalPriceCalculation());
-console.log(library.printLibrary());
+console.log("|------------------------|impresion libreria|-----------------|")
+library.printLibrary();
 
