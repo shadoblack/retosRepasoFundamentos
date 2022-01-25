@@ -31,10 +31,12 @@ function horoscopo(month)
     }
     return
 }
+console.log("|-----------------------------------|reto1|--------------------------|")
+horoscopo(6);
 //------------------------------------------------------------//
 //reto2
 
-
+console.log("|-----------------------------------|reto2|--------------------------|")
 function localizacion(pais:string)
 {
 
@@ -63,3 +65,4 @@ else
     console.log("no esta en la base de datos")
 }
 }
+localizacion("Australia");
