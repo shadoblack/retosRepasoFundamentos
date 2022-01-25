@@ -1,0 +1,19 @@
+{
+  "name": "ooppreview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadoblack/OOPPreview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadoblack/OOPPreview/issues"
+  },
+  "homepage": "https://github.com/shadoblack/OOPPreview#readme"
+}
